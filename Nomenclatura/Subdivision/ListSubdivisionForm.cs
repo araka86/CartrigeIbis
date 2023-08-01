@@ -1,4 +1,5 @@
 ﻿using CartrigeAltstar.Model;
+using CartrigeAltstar.Nomenclatura.Article;
 using System;
 using System.Data;
 using System.Data.Entity;
@@ -55,19 +56,28 @@ namespace CartrigeAltstar
             //Add подразделения
 
 
-            AddSubdivision addSubdivisionForm = new AddSubdivision();
+       //    AddSubdivision addSubdivisionForm = new AddSubdivision();
+
+            AddArticle addArticleForm = new AddArticle();
 
 
-            DialogResult result = addSubdivisionForm.ShowDialog(this);
+
+            DialogResult result = addArticleForm.ShowDialog(this);
             if (result == DialogResult.Cancel)
                 return;
 
 
 
 
-            Subdivision subdivisionModel = new Subdivision();
-            subdivisionModel.division = addSubdivisionForm.txtModelDivision.Text;
-            subdivisionModel.address_part = addSubdivisionForm.txtStreet.Text;
+        //    Subdivision subdivisionModel = new Subdivision();
+            Article articleModel = new Article();
+
+            articleModel.Name = addArticleForm.textBoxArticle.Text;
+
+            db.Articles.Add(articleModel);
+
+            subdivisionModel.division = addArticleForm.txtModelDivision.Text;
+            subdivisionModel.address_part = addArticleForm.txtStreet.Text;
             db.Subdivisions.Add(subdivisionModel);
 
 

@@ -15,6 +15,7 @@ using System.Globalization;
 //Простір, використовуваний для роботи з файлами ресурсів .resx,
 using System.Reflection;
 using System.Runtime.InteropServices;
+using CartrigeAltstar.Nomenclatura.Article;
 
 namespace CartrigeAltstar
 {
@@ -1075,6 +1076,12 @@ namespace CartrigeAltstar
         {
             string searchValue = comboBoxDepertment.SelectedItem.ToString();
 
+        }
+
+        private void btnArticleShow_Click(object sender, EventArgs e)
+        {
+            ListArticleForm listArticleForm = new ListArticleForm();
+            listArticleForm.Show();
         }
     }
 
