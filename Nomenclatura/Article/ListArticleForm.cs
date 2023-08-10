@@ -96,6 +96,7 @@ namespace CartrigeAltstar
                 if (result == DialogResult.Cancel)
                     return;
 
+
                 articleModel.Name = articleDiagForm.textBoxArticle.Text;
 
                 db.Entry(articleModel).State = EntityState.Modified;
