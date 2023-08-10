@@ -1,4 +1,4 @@
-﻿namespace CartrigeAltstar.Nomenclatura.Article
+﻿namespace CartrigeAltstar
 {
     partial class ListArticleForm
     {
@@ -79,6 +79,7 @@
             this.btn_add_article.TabIndex = 25;
             this.btn_add_article.Text = "Добавить";
             this.btn_add_article.UseVisualStyleBackColor = true;
+            this.btn_add_article.Click += new System.EventHandler(this.btn_add_article_Click);
             // 
             // btn_del_article
             // 
@@ -88,6 +89,7 @@
             this.btn_del_article.TabIndex = 26;
             this.btn_del_article.Text = "Удалить";
             this.btn_del_article.UseVisualStyleBackColor = true;
+            this.btn_del_article.Click += new System.EventHandler(this.btn_del_article_Click);
             // 
             // btn_update_article
             // 
@@ -97,6 +99,7 @@
             this.btn_update_article.TabIndex = 27;
             this.btn_update_article.Text = "Обновить";
             this.btn_update_article.UseVisualStyleBackColor = true;
+            this.btn_update_article.Click += new System.EventHandler(this.btn_update_article_Click);
             // 
             // btn_export_article
             // 
@@ -152,6 +155,7 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "ListArticleForm";
             this.Text = "ListArticleForm";
+            this.Load += new System.EventHandler(this.ListArticleForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListArticle)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);

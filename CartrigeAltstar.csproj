@@ -129,6 +129,12 @@
   <ItemGroup>
     <Compile Include="Model\Article.cs" />
     <Compile Include="Model\Current.cs" />
+    <Compile Include="Nomenclatura\Article\AddArticle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nomenclatura\Article\AddArticle.Designer.cs">
+      <DependentUpon>AddArticle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nomenclatura\Article\ListArticleForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -277,6 +283,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main_Reception.uk-UA.resx">
       <DependentUpon>Main_Reception.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nomenclatura\Article\AddArticle.resx">
+      <DependentUpon>AddArticle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nomenclatura\Article\ListArticleForm.resx">
       <DependentUpon>ListArticleForm.cs</DependentUpon>

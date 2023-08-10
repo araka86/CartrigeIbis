@@ -5,7 +5,6 @@ using System.Data;
 using System.Data.Entity;
 using System.Drawing;
 using System.Linq;
-using System.Reflection;
 using System.Windows.Forms;
 using Excel = Microsoft.Office.Interop.Excel;
 
@@ -69,15 +68,15 @@ namespace CartrigeAltstar
 
 
 
-        //    Subdivision subdivisionModel = new Subdivision();
+            Subdivision subdivisionModel = new Subdivision();
             Article articleModel = new Article();
 
             articleModel.Name = addArticleForm.textBoxArticle.Text;
 
             db.Articles.Add(articleModel);
 
-            subdivisionModel.division = addArticleForm.txtModelDivision.Text;
-            subdivisionModel.address_part = addArticleForm.txtStreet.Text;
+            //subdivisionModel.division = addArticleForm.txtModelDivision.Text;
+            //subdivisionModel.address_part = addArticleForm.txtStreet.Text;
             db.Subdivisions.Add(subdivisionModel);
 
 
