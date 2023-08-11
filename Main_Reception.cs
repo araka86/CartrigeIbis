@@ -627,6 +627,8 @@ namespace CartrigeAltstar
         {
 
             ListCartrigeForm listCartrigeForm = new ListCartrigeForm();
+
+
             listCartrigeForm.Show();
         }
 

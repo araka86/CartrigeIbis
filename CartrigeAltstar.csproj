@@ -159,6 +159,12 @@
     <Compile Include="Nomenclatura\AddI_Del_infoOrgTehnic.Designer.cs">
       <DependentUpon>AddI_Del_infoOrgTehnic.cs</DependentUpon>
     </Compile>
+    <Compile Include="Nomenclatura\Cartrige\CartrigeArticleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nomenclatura\Cartrige\CartrigeArticleForm.Designer.cs">
+      <DependentUpon>CartrigeArticleForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nomenclatura\InfoOrgTechnic.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -301,6 +307,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Nomenclatura\Cartrige\AddCartriges.resx">
       <DependentUpon>AddCartriges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nomenclatura\Cartrige\CartrigeArticleForm.resx">
+      <DependentUpon>CartrigeArticleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nomenclatura\Cartrige\ListCartrigeForm.en.resx">
       <DependentUpon>ListCartrigeForm.cs</DependentUpon>

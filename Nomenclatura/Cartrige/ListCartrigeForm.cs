@@ -297,10 +297,21 @@ namespace CartrigeAltstar
         }
 
         private void btnClosed_Click(object sender, EventArgs e) => Close();
-        
-     
-    
-    
-      
+
+        private void btn_AddArticle_Click(object sender, EventArgs e)
+        {
+            ListArticleForm listArticleForm = new ListArticleForm();
+            int index = dataGridViewListCartrige.SelectedRows[0].Index;
+            int ids;
+            bool converted = int.TryParse(dataGridViewListCartrige[0, index].Value.ToString(), out ids);
+            if (converted == false)
+                return;
+
+
+            var cartrigeArticle = db.Cartriges.Find(ids);
+
+
+            listArticleForm.ShowDialog();
+        }
     }
 }

@@ -36,6 +36,7 @@ namespace CartrigeAltstar
             this.btnUpdateCartrige = new System.Windows.Forms.Button();
             this.btnExportCartroge = new System.Windows.Forms.Button();
             this.btnClosed = new System.Windows.Forms.Button();
+            this.btn_AddArticle = new System.Windows.Forms.Button();
             this.dataGridViewListCartrige = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.flowLayoutPanel1.SuspendLayout();
@@ -51,6 +52,7 @@ namespace CartrigeAltstar
             this.flowLayoutPanel1.Controls.Add(this.btnUpdateCartrige);
             this.flowLayoutPanel1.Controls.Add(this.btnExportCartroge);
             this.flowLayoutPanel1.Controls.Add(this.btnClosed);
+            this.flowLayoutPanel1.Controls.Add(this.btn_AddArticle);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             // 
             // btnAddCartrige
@@ -87,6 +89,13 @@ namespace CartrigeAltstar
             this.btnClosed.Name = "btnClosed";
             this.btnClosed.UseVisualStyleBackColor = true;
             this.btnClosed.Click += new System.EventHandler(this.btnClosed_Click);
+            // 
+            // btn_AddArticle
+            // 
+            resources.ApplyResources(this.btn_AddArticle, "btn_AddArticle");
+            this.btn_AddArticle.Name = "btn_AddArticle";
+            this.btn_AddArticle.UseVisualStyleBackColor = true;
+            this.btn_AddArticle.Click += new System.EventHandler(this.btn_AddArticle_Click);
             // 
             // dataGridViewListCartrige
             // 
@@ -130,5 +139,6 @@ namespace CartrigeAltstar
         private System.Windows.Forms.Button btnClosed;
         public System.Windows.Forms.DataGridView dataGridViewListCartrige;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btn_AddArticle;
     }
 }

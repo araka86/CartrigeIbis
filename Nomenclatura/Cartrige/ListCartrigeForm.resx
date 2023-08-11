@@ -127,6 +127,9 @@
   <data name="btnExportCartroge.Text" xml:space="preserve">
     <value>Export Exel</value>
   </data>
+  <data name="&gt;&gt;btn_AddArticle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
     <value>677, 3</value>
   </data>
@@ -167,16 +170,16 @@
   <data name="&gt;&gt;button4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
   <data name="&gt;&gt;btnDellCartrige.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="dataGridViewListCartrige.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 16</value>
   </data>
+  <data name="&gt;&gt;btn_AddArticle.Name" xml:space="preserve">
+    <value>btn_AddArticle</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnUpdateCartrige.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
   </data>
@@ -238,7 +241,7 @@
     <value>btnExportCartroge</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;button4.Name" xml:space="preserve">
     <value>button4</value>
@@ -297,6 +300,9 @@
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>50</value>
   </data>
+  <data name="&gt;&gt;btn_AddArticle.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -320,6 +326,9 @@
   </data>
   <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
     <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_AddArticle.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
@@ -369,6 +378,9 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ListCartrigeForm</value>
   </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>713, 430</value>
+  </data>
   <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 400</value>
   </data>
@@ -405,6 +417,9 @@
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
   </data>
+  <data name="btn_AddArticle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>716, 3</value>
+  </data>
   <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
     <value>22, 23</value>
   </data>
@@ -414,11 +429,14 @@
   <data name="&gt;&gt;button3.Parent" xml:space="preserve">
     <value>flowLayoutPanel1</value>
   </data>
+  <data name="btn_AddArticle.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
   </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>713, 430</value>
+  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
   </data>
   <data name="btnDellCartrige.Text" xml:space="preserve">
     <value>Удалить</value>
